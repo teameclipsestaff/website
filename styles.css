@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  
+}
+.header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+}
+.header .wrapper{
+  width: 80%;
+  margin: auto;
+  display: flex;
+}
+.header .wrapper .logo-container{
+  flex: 1;
+}
+.header .wrapper .nav-container{
+  flex: 3;
+  height: 86px;
+  background-image: url("https://github.com/teameclipsestaff/Influify-Static/blob/main/assets/Rectangle%203.png?raw=true");
+}
